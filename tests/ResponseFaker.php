@@ -2,7 +2,7 @@
 
 namespace EllipseSynergie\ApiResponse\Tests;
 
-use EllipseSynergie\ApiResponse\AbstractResponse;
+use NextApps\ApiResponse\AbstractResponse;
 
 /**
  * Class ResponseFaker

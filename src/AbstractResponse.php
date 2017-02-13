@@ -1,8 +1,8 @@
 <?php
 
-namespace EllipseSynergie\ApiResponse;
+namespace NextApps\ApiResponse;
 
-use EllipseSynergie\ApiResponse\Contracts\Response;
+use NextApps\ApiResponse\Contracts\Response;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
 use League\Fractal\Manager;
@@ -14,7 +14,7 @@ use League\Fractal\Pagination\Cursor;
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @package EllipseSynergie\ApiResponse
+ * @package NextApps\ApiResponse
  * @author Maxime Beaudoin <maxime.beaudoin@ellipse-synergie.com>
  * @author Phil Sturgeon <email@philsturgeon.co.uk>
  */
@@ -84,7 +84,7 @@ abstract class AbstractResponse implements Response
      * Setter for status code
      *
      * @param int $statusCode
-     * @return \EllipseSynergie\ApiResponse\AbstractResponse
+     * @return \NextApps\ApiResponse\AbstractResponse
      */
     public function setStatusCode($statusCode)
     {

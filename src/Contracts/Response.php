@@ -1,6 +1,6 @@
 <?php
 
-namespace EllipseSynergie\ApiResponse\Contracts;
+namespace NextApps\ApiResponse\Contracts;
 
 use League\Fractal\Pagination\Cursor;
 
@@ -10,7 +10,7 @@ use League\Fractal\Pagination\Cursor;
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @package EllipseSynergie\ApiResponse\Contracts
+ * @package NextApps\ApiResponse\Contracts
  * @author Maxime Beaudoin <maxime.beaudoin@ellipse-synergie.com>
  */
 interface Response
@@ -31,7 +31,7 @@ interface Response
      * Setter for status code
      *
      * @param int $statusCode
-     * @return \EllipseSynergie\ApiResponse\AbstractResponse
+     * @return \NextApps\ApiResponse\AbstractResponse
      */
     public function setStatusCode($statusCode);
 

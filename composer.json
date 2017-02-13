@@ -31,8 +31,8 @@
     },
     "autoload": {
         "psr-4": {
-            "EllipseSynergie\\ApiResponse\\": "src",
-            "EllipseSynergie\\ApiResponse\\Tests\\": "tests"
+            "NextApps\\ApiResponse\\": "src",
+            "NextApps\\ApiResponse\\Tests\\": "tests"
         }
     },
     "extra": {

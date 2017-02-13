@@ -2,8 +2,8 @@
 
 namespace EllipseSynergie\ApiResponse\Tests;
 
-use EllipseSynergie\ApiResponse\Tests\Laravel\ResponseFake;
-use EllipseSynergie\ApiResponse\Tests\ResponseFaker as Response;
+use NextApps\ApiResponse\Tests\Laravel\ResponseFake;
+use NextApps\ApiResponse\Tests\ResponseFaker as Response;
 use League\Fractal\Manager;
 use League\Fractal\Pagination\Cursor;
 

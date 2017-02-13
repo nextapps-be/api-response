@@ -1,6 +1,6 @@
 <?php
 
-namespace EllipseSynergie\ApiResponse\Tests\Laravel;
+namespace NextApps\ApiResponse\Tests\Laravel;
 
 class ResponseFactoryFake implements \Illuminate\Contracts\Routing\ResponseFactory
 {

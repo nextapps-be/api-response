@@ -1,8 +1,8 @@
 <?php
 
-namespace EllipseSynergie\ApiResponse\Laravel;
+namespace NextApps\ApiResponse\Laravel;
 
-use EllipseSynergie\ApiResponse\AbstractResponse;
+use NextApps\ApiResponse\AbstractResponse;
 use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
@@ -15,7 +15,7 @@ use League\Fractal\Resource\Collection;
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @package EllipseSynergie\ApiResponse\Laravel
+ * @package NextApps\ApiResponse\Laravel
  * @author Maxime Beaudoin <maxime.beaudoin@ellipse-synergie.com>
  */
 class Response extends AbstractResponse

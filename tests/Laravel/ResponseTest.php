@@ -1,6 +1,6 @@
 <?php
 
-namespace EllipseSynergie\ApiResponse\Tests\Laravel;
+namespace NextApps\ApiResponse\Tests\Laravel;
 
 use League\Fractal\Manager;
 use Mockery as m;

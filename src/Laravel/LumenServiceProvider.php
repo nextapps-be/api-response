@@ -1,6 +1,6 @@
 <?php
 
-namespace EllipseSynergie\ApiResponse\Laravel;
+namespace NextApps\ApiResponse\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 use League\Fractal\Manager;
@@ -11,7 +11,7 @@ use League\Fractal\Manager;
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @package EllipseSynergie\ApiResponse\Laravel
+ * @package NextApps\ApiResponse\Laravel
  * @author Maxime Beaudoin <maxime.beaudoin@ellipse-synergie.com>
  */
 class LumenServiceProvider extends ServiceProvider
@@ -34,7 +34,7 @@ class LumenServiceProvider extends ServiceProvider
         $manager->parseIncludes(explode(',', $this->app['Illuminate\Http\Request']->get('include')));
 
         //Set the response instance properly
-        $this->app->instance('EllipseSynergie\ApiResponse\Contracts\Response', new Response($manager));
+        $this->app->instance('NextApps\ApiResponse\Contracts\Response', new Response($manager));
     }
 
     /**
